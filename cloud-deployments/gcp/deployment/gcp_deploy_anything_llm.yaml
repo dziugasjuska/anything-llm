@@ -1,9 +1,9 @@
 resources:  
-  - name: anything-llm-instance  
+  - name: anything-llm-test
     type: compute.v1.instance  
     properties:  
       zone: us-central1-a  
-      machineType: zones/us-central1-a/machineTypes/n1-standard-1  
+      machineType: zones/us-central1-a/machineTypes/e2-medium 
       disks:  
         - deviceName: boot  
           type: PERSISTENT  
